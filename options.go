@@ -170,7 +170,7 @@ func (w *Waveform) setResolution(resolution uint) error {
 	return nil
 }
 
-// SampleFunc generates an OptionsFunc which applies the input SampleReduceFunc
+// SampleFunction generates an OptionsFunc which applies the input SampleReduceFunc
 // to an input Waveform struct.
 //
 // This function is used to compute values from audio samples, for use in
